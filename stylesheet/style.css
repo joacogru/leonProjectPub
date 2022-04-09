@@ -105,7 +105,7 @@ main.home__mainContainer h3 {
   color: #be2c53;
 }
 
-main.home__mainContainer section.home__newsContainer {
+#newsGrid {
 /*   width: 1000px;
   height: 400px; */
   margin: 20px;
@@ -155,14 +155,20 @@ main.home__mainContainer section.home__newsContainer article:hover {
 
 
 @media screen and (min-width: 768px) {
-  main.home__mainContainer section.home__newsContainer {
-    
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  #newsGrid {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* background-image: none; */
+    /* grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 250px);
     grid-area: 
     "news1 news2"
-    "news3 news4";
+    "news3 news4"; */
+    
+    /* TRATE DE HACERLO CON DISPLAY GRID PERO SOLO LOGRE QUE SEA RESPONSIVE CON FLEX, DEBO HABER HECHO ALGO MAL EN EL HTML */
   }
+  
 }
   
 
