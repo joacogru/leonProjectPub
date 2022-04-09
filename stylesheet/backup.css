@@ -1,0 +1,70 @@
+
+/* galeria */
+
+main.galeria__mainContainer h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #be2c53;
+    color: rgb(114, 12, 12);
+    margin: 30px 20px;
+    font-family: "Palette Mosaic", cursive;
+  }
+  
+  main.galeria__mainContainer div.galeria__imgContainer {
+    margin: 0 auto;
+    max-width: 860px;
+    text-align: center;
+  }
+  main.galeria__mainContainer div.galeria__videoContainer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  div.galeria__videoContainer h4 {
+    color: #db5276;
+  }
+  
+  main.galeria__mainContainer img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    filter: brightness(50%);
+  }
+  
+  main.galeria__mainContainer img:hover {
+    filter: brightness(100%);
+    transform: rotate(-3deg);
+  }
+  
+  main.galeria__mainContainer div ul li {
+    display: inline-block;
+  }
+  
+  /* ------------CONTACTO----------- */
+  
+  form.contact__form {
+    display: block;
+    text-align: center;
+  }
+  
+  main.contact__mainContainer h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #be2c53;
+    color: rgb(114, 12, 12);
+    margin: 30px 20px;
+    font-family: "Palette Mosaic", cursive;
+  }
+  
+  main.contact__mainContainer div {
+    margin: 20px;
+  }
+  
+  div.contact__form--topBox input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }

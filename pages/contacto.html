@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/Leon Icono.jpg" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hurricane&family=Palette+Mosaic&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../stylesheet/style.css" />
+  </head>
+  <body>
+    <header id="top">
+      <nav class="header__navMenu">
+        <!-- nav>ul>li*3>a atajo para crearla automaticamente -->
+        <ul>
+          <li>
+            <a href="../index.html"><strong>Inicio</strong></a>
+          </li>
+          <li>
+            <a href="about.html"><strong>Quien soy?</strong></a>
+          </li>
+          <li>
+            <a href="galeria.html"><strong>Galeria</strong></a>
+          </li>
+          <li>
+            <a href="contacto.html" class="active"><strong>Contacto</strong></a>
+          </li>
+          <li>
+            <a href="donaciones.html"><strong>Donaciones</strong></a>
+          </li>
+        </ul>
+        </ul>
+      </nav>
+      <div class="header__logo">
+        <a href="../index.html">
+          <img src="../images/Leon Icono.jpg" alt="Logo" />
+        </a>
+      </div>
+    </header>
+    <main class="contact__mainContainer">
+      <form action="" class="contact__form">
+        <h2>Escríbeme</h2>
+        <div class="contact__form--topBox">
+          <input type="text" name="nombre" placeholder="Nombre*" required />
+          <input type="text" name="apellido" placeholder="Apellido*" required />
+          <input type="email" name="email" placeholder="Email*" required />
+        </div>
+        <div class="contact__form--bottomBox">
+          <textarea
+            name="mensaje"
+            placeholder="Gracias por dejarnos su mensaje!"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="contact__form--buttonsContainer">
+          <button type="reset" class="button button__reset">Limpiar</button>
+          <button type="submit" class="button buttton__submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <footer class="contact__footer">
+      <a href="#top"><i class="fa-solid fa-angles-up">top</i></a>
+      <h6>
+        No se si esta va a ser el proyecto final, sigo en conflicto interno con
+        ese tema!
+      </h6>
+    </footer>
+  </body>
+</html>
