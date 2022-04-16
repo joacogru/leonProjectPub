@@ -82,6 +82,8 @@ header nav.header__navMenu ul {
 main.home__mainContainer section.home__heroImage {
   margin: 50px 0;
   width: 100%;
+
+  
 }
 
 main.home__mainContainer section.home__heroImage img {
@@ -91,6 +93,9 @@ main.home__mainContainer section.home__heroImage img {
   display: block;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+  background: rgb(232,232,232);
+  background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(219,82,118,0.6089887640449438) 50%, rgba(178,34,34,0.4898876404494382) 100%);
 }
 
 main.home__mainContainer h1 {
@@ -290,6 +295,7 @@ main.galeria__mainContainer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   margin: 4rem auto;
+  
 
   background: rgb(232,232,232);
   background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(219,82,118,0.6089887640449438) 50%, rgba(178,34,34,0.4898876404494382) 100%); 
