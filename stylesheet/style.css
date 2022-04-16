@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #e8e8e8;
+  background: rgb(178,34,34);
+  background: linear-gradient(90deg, rgba(178,34,34,1) 0%, rgba(219,82,118,0.6089887640449438) 50%, rgba(232,232,232,0.3550561797752809) 100%); 
 }
 
 
@@ -35,7 +36,7 @@ div.header__logo a img {
 
 header nav.header__navMenu li a {
   text-decoration: none;
-  color: firebrick;
+  color: #b22222;
   padding: 20px;
   display: none;
 }
@@ -47,7 +48,7 @@ header nav.header__navMenu li a:hover {
 
 .active {  
   
-  border-bottom:5px solid firebrick;
+  border-top:5px solid firebrick;
 }
 
 header nav.header__navMenu ul {
@@ -76,6 +77,7 @@ header nav.header__navMenu ul {
 
 /* -----------MAIN----------- */
 /* -----------HOME----------- */
+
 
 main.home__mainContainer section.home__heroImage {
   margin: 50px 0;
@@ -288,6 +290,9 @@ main.galeria__mainContainer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   margin: 4rem auto;
+
+  background: rgb(232,232,232);
+  background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(219,82,118,0.6089887640449438) 50%, rgba(178,34,34,0.4898876404494382) 100%); 
 }
 
 div.galeria__imgContainer ul li img {
