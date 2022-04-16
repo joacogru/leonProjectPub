@@ -207,13 +207,15 @@ article.about__dataContainer {
 }
 
 .about__photoContainer img {
-  /*  border: 1px solid black; */ /* BORRARRRRRRRRRRRRRRR */
   width: 80%;
   max-width: 700px;
   padding: 30px;
   display: block;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  
+  background: rgb(232,232,232);
+  background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(219,82,118,0.6089887640449438) 50%, rgba(178,34,34,0.4898876404494382) 100%);
 }
 
 li {
